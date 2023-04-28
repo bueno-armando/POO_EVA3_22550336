@@ -9,7 +9,8 @@ public class EVA2_3_TRY_CATCH {
             System.out.println("res = "+res);
         }catch(ArithmeticException e){
             //e.printStackTrace(); lo que se imprime por default
-            System.out.println("Excepción: "+e.getMessage());
+            //se genera un objeto exception "e" de tipo ArithmeticException
+            System.out.println("Excepción de tipo: "+e.getMessage());
         }
         System.out.println("Fin del programa");
         
